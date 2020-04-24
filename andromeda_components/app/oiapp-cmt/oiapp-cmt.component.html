@@ -1,0 +1,49 @@
+<div>
+    <mat-card class = "introduction">
+      <img class = "face-image"  src='https://material.angular.io/assets/img/examples/shiba1.jpg'>
+      <mat-card-header>
+        <mat-card-title>SWR Bank</mat-card-title>
+        <mat-card-subtitle>F10 OI</mat-card-subtitle>
+        <!-- <star-rating [starType]="'svg'" [rating]="5"></star-rating> -->
+        <mat-card-content>
+          <p>this is a good and convenient app</p>
+        </mat-card-content>
+      </mat-card-header>
+        <!-- <mat-icon>more_vert</mat-icon> -->
+      
+      <mat-card-actions >
+        <a href='app_real_link'><button mat-raised-button>Launch</button></a>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card class="main-part">
+      <mat-card-header style = "display:flex;justify-content:center;align-items:center;">
+        <a routerLink="/oiapp-detail"><mat-card-title style = "font-size: 20px">Overview</mat-card-title></a>
+        <a routerLink="/oiapp-cmt"><mat-card-title style = "font-size: 20px;margin-left: 60px;">Review</mat-card-title></a>
+      </mat-card-header>
+      <Br>
+      <mat-card-header>
+      <mat-card-title style = "align-content: left">Reviews</mat-card-title>
+      <mat-card-actions >
+        <a href='app_real_link'><button mat-raised-button>Write a Review</button></a>
+      </mat-card-actions>
+    </mat-card-header>
+      <mat-grid-list cols="1" rowHeight = '200px'>
+        <ul class = oiappcmtlist>
+          <li *ngFor = " let cmt of OIAppCmtList">
+            <mat-grid-tile>
+              <mat-card class = "cmt-card">
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title class = mat-cmt-title>{{cmt.id}}</mat-card-title>
+                <mat-card-content style = "text-align:left">{{cmt.content}}</mat-card-content>
+                <mat-card-content style = "text-align: right;">Posted by {{cmt.date}}</mat-card-content>
+              </mat-card>
+            </mat-grid-tile>
+          </li>
+        </ul>
+      </mat-grid-list>
+     
+    </mat-card>
+</div>
+
+

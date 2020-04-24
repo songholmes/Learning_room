@@ -1,0 +1,38 @@
+<div>
+    <mat-card class = "introduction">
+      <img class = "face-image"  src='https://material.angular.io/assets/img/examples/shiba1.jpg'>
+      <mat-card-header>
+        <mat-card-title>SWR Bank</mat-card-title>
+        <mat-card-subtitle>F10 OI</mat-card-subtitle>
+        <!-- <star-rating [starType]="'svg'" [rating]="5"></star-rating> -->
+        <mat-card-content>
+          <p>this is a good and convenient app</p>
+        </mat-card-content>
+      </mat-card-header>
+        <!-- <mat-icon>more_vert</mat-icon> -->
+      
+      <mat-card-actions >
+        <a href='www.google.com'><button mat-raised-button>Launch</button></a>
+      </mat-card-actions>
+    </mat-card>
+
+    <mat-card class="main-part">
+      <mat-card-header style = "display:flex;justify-content:center;align-items:center;">
+        <a routerLink="/oiapp-detail"><mat-card-title style = "font-size: 20px">Overview</mat-card-title></a>
+        <a routerLink="/oiapp-cmt"><mat-card-title style = "font-size: 20px;margin-left: 60px;">Review</mat-card-title></a>
+      </mat-card-header>
+      <div fxLayout="row"  fxLayoutAlign="center center">
+        <img class = "intro-image"  src='https://material.angular.io/assets/img/examples/shiba1.jpg'> 
+      </div>
+      <mat-card class="descritpion"  >
+      <mat-card-title style = "font-size: 20px;">Descriptinon</mat-card-title>
+      </mat-card>
+
+      <mat-card class="information" >
+        <mat-card-title style = "font-size: 20px;">Information</mat-card-title>
+      </mat-card>
+     
+    </mat-card>
+</div>
+
+

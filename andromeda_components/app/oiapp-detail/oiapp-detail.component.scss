@@ -1,0 +1,105 @@
+.introduction{
+    max-width: 90%;
+    height: 230px;
+    margin-left: 70px;
+    margin-right:40px;
+    // top: 40px;
+    background-color: rgba(80, 78, 92, 0.616);
+    box-shadow: 0 8px 8px 8px rgba(0,0,0,.2) 0 8px 8px 8px rgba(0,0,0,12) 0 8px 8px 8px rgba(0,0,0,14);
+} 
+
+
+.main-part{
+    max-width: 90%;
+    height: 950px;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right:40px;
+    // top: 40px;
+    background-color: rgba(80, 78, 92, 0.616);
+    box-shadow: 0 8px 8px 8px rgba(0,0,0,.2) 0 8px 8px 8px rgba(0,0,0,12) 0 8px 8px 8px rgba(0,0,0,14);
+
+    
+} 
+
+.descritpion{
+    width: 60%;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right:30px;
+    background-color: rgba(80, 78, 92, 0.616);
+    box-shadow: 0 8px 8px 8px rgba(0,0,0,.2) 0 8px 8px 8px rgba(0,0,0,12) 0 8px 8px 8px rgba(0,0,0,14);
+    display: inline-block;
+
+} 
+
+.information{
+    width: 30%;
+    height: 350px;
+    margin-top: 30px;
+    // margin-left: 30px;
+    // margin-right:30px;
+    // top: 40px;
+    background-color: rgba(80, 78, 92, 0.616);
+    box-shadow: 0 8px 8px 8px rgba(0,0,0,.2) 0 8px 8px 8px rgba(0,0,0,12) 0 8px 8px 8px rgba(0,0,0,14);
+    display:inline-block;
+
+
+}
+
+.mat-card-header{
+    display:inline-block;
+    margin-left:30px;
+    margin-top: 40px;
+    vertical-align: top;
+}
+.mat-card-title{
+    color:white;
+    font-weight: 700;
+    font-size: 30px;
+    display:inline-block
+}
+
+.mat-card-subtitle{
+    color: white;
+    font-size:15px;
+}
+
+.mat-card-content{
+    color:white;
+    font-size: 15px;
+    margin-left:15px;
+}
+
+button{
+    position: absolute;
+    right: 20px;
+    top: 200px;
+    background-color: rgba(236, 235, 245, 0.1);
+    outline-color: white;
+    outline-width: 10px;
+    color: white;
+}
+  
+.face-image{
+object-fit: cover; /*this makes the image in src fit to the size specified below*/
+width: 180px; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+height: 180px;
+margin-left:30px;
+margin-top:30px;
+display:inline-block;
+}
+
+.intro-image{
+    // object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    width: 600px; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    height: 450px;
+    // margin-left:30px;
+    margin-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    }

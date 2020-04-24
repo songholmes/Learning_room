@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+// @import '~@angular/material/prebuilt-themes/deeppurple-amber.css'
+// html { height: 100%; }
+// @import '~css-star-rating/scss/star-rating';
+// body { margin-left: 70px; margin-right: 50px; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+body, html { background-image: url("./assets/images/galaxy.jpeg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    background-attachment: fixed;
+}
+
+.bg {
+  
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
